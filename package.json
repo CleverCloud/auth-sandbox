@@ -1,0 +1,12 @@
+{
+  "name": "auth-sandbox",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CleverCloud/auth-sandbox.git"
+  },
+  "license": "MIT"
+}
