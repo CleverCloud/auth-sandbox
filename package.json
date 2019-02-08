@@ -2,11 +2,13 @@
   "name": "auth-sandbox",
   "version": "0.0.1",
   "main": "index.js",
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/CleverCloud/auth-sandbox.git"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@vue/cli": "^3.4.0"
+  }
 }
