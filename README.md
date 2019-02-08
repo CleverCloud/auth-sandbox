@@ -11,3 +11,4 @@ This is a sandbox that anyone can use to play with and discover pros and cons of
 * Init hapijs project
 * Init login page
 * Init home page
+* Remove core-js
