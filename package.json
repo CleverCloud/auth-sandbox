@@ -5,7 +5,9 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "start": "node ./server/start-app.js",
+    "start:dev": "nodemon ./server/start-app.js"
   },
   "repository": {
     "type": "git",
@@ -13,6 +15,15 @@
   },
   "license": "MIT",
   "dependencies": {
+    "boom": "^7.3.0",
+    "catbox-disk": "^3.0.0",
+    "convict": "^4.4.1",
+    "good": "^8.1.2",
+    "good-console": "^7.1.0",
+    "good-squeeze": "^5.1.0",
+    "h2o2": "^8.1.2",
+    "hapi": "^18.1.0",
+    "inert": "^5.1.2",
     "vue": "^2.5.22",
     "vue-router": "^3.0.1"
   },
@@ -26,6 +37,7 @@
     "core-js": "^2.6.4",
     "eslint": "^5.8.0",
     "eslint-plugin-vue": "^5.0.0",
+    "nodemon": "^1.18.9",
     "vue-template-compiler": "^2.5.21"
   }
 }
