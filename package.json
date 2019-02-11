@@ -5,6 +5,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "install": "npm run build",
     "lint": "vue-cli-service lint",
     "start": "node ./server/start-app.js",
     "start:dev": "nodemon ./server/start-app.js"
@@ -18,6 +19,7 @@
     "boom": "^7.3.0",
     "catbox-disk": "^3.0.0",
     "convict": "^4.4.1",
+    "cookie": "^0.3.1",
     "good": "^8.1.2",
     "good-console": "^7.1.0",
     "good-squeeze": "^5.1.0",

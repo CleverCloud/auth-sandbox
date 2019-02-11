@@ -1,0 +1,22 @@
+{
+    "john": {
+        "name": "John Lennon",
+        "instrument": "Guitar",
+        "birthdate": "October 9th, 1940"
+    },
+    "paul": {
+        "name": "Paul McCartney",
+        "instrument": "Bass",
+        "birthdate": "June 18th, 1942"
+    },
+    "george": {
+        "name": "George Harisson",
+        "instrument": "Guitar",
+        "birthdate": "February 25th, 1943"
+    },
+    "ringo": {
+        "name": "Ringo Starr",
+        "instrument": "Drums",
+        "birthdate": "July 7th, 1940"
+    }
+}

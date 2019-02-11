@@ -19,7 +19,7 @@ const conf = convict({
   DEV_FRONT_URL: {
     doc: 'URL of the dev server',
     format: String,
-    default: null,
+    default: '',
     env: 'DEV_FRONT_URL',
   },
 })

@@ -1,9 +1,11 @@
 'use strict'
 
 const config = require('./config/config.js')
+const connectedRoutes = require('./routes/connected.routes.js')
+const frontRoutes = require('./routes/front.routes.js')
 const Good = require('good')
 const Hapi = require('hapi')
-const frontRoutes = require('./routes/front.routes.js')
+const loginRoutes = require('./routes/login.routes.js')
 
 const security = {
   xframe: 'deny',
@@ -53,6 +55,8 @@ async function createServer () {
 
   await server.register([
     logToConsole,
+    loginRoutes,
+    connectedRoutes,
     frontRoutes,
   ])
 
